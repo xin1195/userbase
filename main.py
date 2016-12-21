@@ -11,7 +11,7 @@ from tornado.options import define, options
 from setting import settings
 from urls import urls
 
-define("port", default=8000, help="run on the given port", type=int)
+define("port", default=8800, help="run on the given port", type=int)
 
 application = tornado.web.Application(
     handlers=urls,
